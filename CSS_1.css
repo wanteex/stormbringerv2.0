@@ -1,0 +1,259 @@
+﻿/* debut */
+
+#rectangle {
+	border-style: solid;
+	border-width: 2px;
+	background-color:black;
+	text-align:center;
+}
+#rectangle > p{
+	font-size:30px;
+	color:red;
+	font-family:Arial black;
+}
+
+
+/* Menu */
+body{
+	background-image: url(imagP.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	-webkit-background-size: cover; /* pour Chrome et Safari */ 
+	-moz-background-size: cover; /* pour Firefox */ 
+	background-size: cover;/* version standardisée */
+}
+
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+nav li{
+	list-style-type: none;
+}
+
+.submenu{
+	display: none;
+}
+
+nav{
+	width: 101%;
+	background-color: #424558;
+}
+
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+} 
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+
+.submenu li{
+	border-bottom : 1px solid #CCC;
+}
+
+.submenu li a {
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
+
+.menu-acceuil:hover{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-esaipJ:hover{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-esaipE:hover{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-login:hover{
+	border-top: 5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-esaipJ .submenu{
+	background-color: RGB(36, 113, 228);
+}
+
+.menu-esaipE .submenu{
+	background-color: RGB(36, 113, 228);
+}
+
+.submenu li:hover a{
+	color:#FFF;
+	font-weight: bold;
+}
+
+.menu-esaipJ .submenu li:hover{
+	background: RGB(210, 77, 60);
+}
+
+.menu-esaipE .submenu li:hover{
+	background: RGB(210, 77, 60);
+}
+
+
+/* Texte */
+
+.text p{
+	width: 350px;
+	text-align: justify;
+	padding: 12px;
+	margin: auto;
+}
+.text h2{
+	width: 350px;
+	text-align: center;
+	padding: 12px;
+	margin: auto;
+}
+
+.text span{
+	display: block;
+	text-align: center;
+}
+
+.text li{
+	width: 350px;
+	text-align: center;
+	padding: 12px;
+	margin: auto;
+}
+
+/* Article */
+
+.Farticle{
+	margin-top : 50px;
+	margin-bottom : 50px;
+	font-family: 'Source code pro', Calibri, serif;
+	color:black;
+	border-bottom-color:black;
+	border-style: solid;
+	border-width: 2px;
+	background-color:white;
+}
+
+.Particle {
+	float : left;
+	width:50%;
+	border-bottom-color:black;
+	border-style: solid;
+	border-width: 2px;
+	background-color:white;
+	margin-bottom:10%;
+}
+
+.Sarticle {
+	margin-left:50%;
+	border-bottom-color:black;
+	border-style: solid;
+	border-width: 2px;
+	background-color:white;
+	margin-bottom:10%;
+}
+
+/*footer*/
+
+	#footer {
+		color: #717981;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		background-color: #f5f5f5;
+		color: black;
+		cursor: default;
+		position: relative;
+		margin: 0 auto;
+		width: calc(100% - 4rem);
+		max-width: 72rem;
+		z-index: 2;
+		border-style: solid;
+		border-width: 2px;
+	}
+	
+	#footer > section {
+		font-family: 'Source code pro', Calibri, serif;
+		color:black;
+	}
+fieldset1
+{
+	display:  inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove;
+    width: 130px;
+}
+fieldset4
+{
+	display: block;
+	margin-left: 100px;
+    border: 2px groove;
+    width: 292px;
+}
+fieldset2
+{
+	display:block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0.35em;
+    padding-bottom: 0em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove;
+    width: 292px;
+}
+fieldset3
+{
+	display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove;
+    width: 292px;
+    height: 600px;
+}
+	
